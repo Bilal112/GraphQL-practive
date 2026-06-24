@@ -1,0 +1,19 @@
+{
+  "name": "graphql-sample-project",
+  "version": "1.0.0",
+  "description": "A sample Node.js project demonstrating a GraphQL API with Apollo Server",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@apollo/client": "^4.2.3",
+    "@apollo/server": "^4.10.0",
+    "graphql": "^16.14.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
